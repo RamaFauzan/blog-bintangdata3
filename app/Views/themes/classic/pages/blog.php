@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -196,7 +197,7 @@
       width: min(570px, 100%);
       border: 1px solid rgba(255, 255, 255, 0.16);
       border-radius: 30px;
-      background: linear-gradient(145deg, rgba(255,255,255,0.14), rgba(255,255,255,0.045));
+      background: linear-gradient(145deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.045));
       box-shadow: var(--shadow);
       backdrop-filter: blur(22px);
       overflow: hidden;
@@ -278,7 +279,7 @@
     .side-item.active {
       color: #ffffff;
       border-color: rgba(34, 211, 238, 0.28);
-      background: linear-gradient(135deg, rgba(34,211,238,0.16), rgba(168,85,247,0.12));
+      background: linear-gradient(135deg, rgba(34, 211, 238, 0.16), rgba(168, 85, 247, 0.12));
     }
 
     .side-item i {
@@ -307,8 +308,8 @@
       height: 132px;
       border-radius: 18px;
       background:
-        radial-gradient(circle at 20% 24%, rgba(255,255,255,0.42), transparent 18%),
-        linear-gradient(135deg, rgba(34,211,238,0.95), rgba(99,102,241,0.9), rgba(168,85,247,0.92));
+        radial-gradient(circle at 20% 24%, rgba(255, 255, 255, 0.42), transparent 18%),
+        linear-gradient(135deg, rgba(34, 211, 238, 0.95), rgba(99, 102, 241, 0.9), rgba(168, 85, 247, 0.92));
       margin-bottom: 16px;
       position: relative;
       overflow: hidden;
@@ -321,7 +322,7 @@
       height: 120px;
       transform: rotate(-8deg);
       border-radius: 999px;
-      background: rgba(255,255,255,0.24);
+      background: rgba(255, 255, 255, 0.24);
     }
 
     .post-meta {
@@ -337,8 +338,8 @@
       justify-content: center;
       padding: 6px 10px;
       border-radius: 999px;
-      border: 1px solid rgba(255,255,255,0.12);
-      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      background: rgba(255, 255, 255, 0.07);
       color: #dbeafe;
       font-size: 12px;
       font-weight: 850;
@@ -365,12 +366,20 @@
     .content-lines i {
       height: 10px;
       border-radius: 999px;
-      background: rgba(255,255,255,0.12);
+      background: rgba(255, 255, 255, 0.12);
     }
 
-    .content-lines i:nth-child(1) { width: 94%; }
-    .content-lines i:nth-child(2) { width: 84%; }
-    .content-lines i:nth-child(3) { width: 68%; }
+    .content-lines i:nth-child(1) {
+      width: 94%;
+    }
+
+    .content-lines i:nth-child(2) {
+      width: 84%;
+    }
+
+    .content-lines i:nth-child(3) {
+      width: 68%;
+    }
 
     .floating-card {
       position: absolute;
@@ -378,7 +387,7 @@
       border: 1px solid rgba(255, 255, 255, 0.14);
       background: rgba(10, 17, 38, 0.72);
       backdrop-filter: blur(18px);
-      box-shadow: 0 24px 70px rgba(0,0,0,0.32);
+      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.32);
       border-radius: 20px;
       padding: 16px;
     }
@@ -419,7 +428,7 @@
       height: 8px;
       border-radius: 999px;
       overflow: hidden;
-      background: rgba(255,255,255,0.08);
+      background: rgba(255, 255, 255, 0.08);
       margin-top: 8px;
     }
 
@@ -469,7 +478,7 @@
       padding: 10px 15px;
       border-radius: 999px;
       border: 1px solid var(--line);
-      background: rgba(255,255,255,0.055);
+      background: rgba(255, 255, 255, 0.055);
       color: #dbeafe;
       font-size: 14px;
       font-weight: 850;
@@ -479,7 +488,7 @@
     .category-filter a.active,
     .category-filter a:hover {
       border-color: rgba(34, 211, 238, 0.38);
-      background: linear-gradient(135deg, rgba(34,211,238,0.18), rgba(168,85,247,0.14));
+      background: linear-gradient(135deg, rgba(34, 211, 238, 0.18), rgba(168, 85, 247, 0.14));
       transform: translateY(-2px);
     }
 
@@ -490,8 +499,8 @@
       padding: 18px;
       border: 1px solid var(--line);
       border-radius: var(--radius-lg);
-      background: linear-gradient(145deg, rgba(255,255,255,0.11), rgba(255,255,255,0.045));
-      box-shadow: 0 28px 70px rgba(0,0,0,0.28);
+      background: linear-gradient(145deg, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.045));
+      box-shadow: 0 28px 70px rgba(0, 0, 0, 0.28);
       margin-bottom: 72px;
       overflow: hidden;
     }
@@ -502,9 +511,9 @@
       position: relative;
       overflow: hidden;
       background:
-        radial-gradient(circle at 18% 20%, rgba(255,255,255,0.42), transparent 13%),
-        radial-gradient(circle at 86% 24%, rgba(255,255,255,0.28), transparent 16%),
-        linear-gradient(135deg, rgba(34,211,238,0.95), rgba(99,102,241,0.92), rgba(168,85,247,0.9));
+        radial-gradient(circle at 18% 20%, rgba(255, 255, 255, 0.42), transparent 13%),
+        radial-gradient(circle at 86% 24%, rgba(255, 255, 255, 0.28), transparent 16%),
+        linear-gradient(135deg, rgba(34, 211, 238, 0.95), rgba(99, 102, 241, 0.92), rgba(168, 85, 247, 0.9));
     }
 
     .featured-image::before,
@@ -512,7 +521,7 @@
       content: "";
       position: absolute;
       border-radius: 999px;
-      background: rgba(255,255,255,0.22);
+      background: rgba(255, 255, 255, 0.22);
     }
 
     .featured-image::before {
@@ -528,7 +537,7 @@
       height: 260px;
       right: -80px;
       bottom: -80px;
-      background: rgba(255,255,255,0.13);
+      background: rgba(255, 255, 255, 0.13);
     }
 
     .image-label {
@@ -538,8 +547,8 @@
       z-index: 1;
       padding: 9px 13px;
       border-radius: 999px;
-      background: rgba(3,7,18,0.28);
-      border: 1px solid rgba(255,255,255,0.22);
+      background: rgba(3, 7, 18, 0.28);
+      border: 1px solid rgba(255, 255, 255, 0.22);
       backdrop-filter: blur(12px);
       font-size: 13px;
       font-weight: 900;
@@ -580,7 +589,7 @@
       place-items: center;
       font-weight: 950;
       background: linear-gradient(135deg, var(--primary), var(--accent));
-      box-shadow: 0 12px 28px rgba(34,211,238,0.22);
+      box-shadow: 0 12px 28px rgba(34, 211, 238, 0.22);
     }
 
     .author-row strong {
@@ -606,28 +615,42 @@
       overflow: hidden;
       border: 1px solid var(--line);
       border-radius: var(--radius-md);
-      background: linear-gradient(145deg, rgba(255,255,255,0.09), rgba(255,255,255,0.04));
+      background: linear-gradient(145deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.04));
       transition: 0.25s ease;
     }
 
     .blog-card:hover {
       transform: translateY(-6px);
       border-color: rgba(34, 211, 238, 0.35);
-      box-shadow: 0 24px 62px rgba(0,0,0,0.28);
+      box-shadow: 0 24px 62px rgba(0, 0, 0, 0.28);
     }
 
     .card-image {
       height: 190px;
       position: relative;
       overflow: hidden;
-      background: linear-gradient(135deg, rgba(34,211,238,0.85), rgba(99,102,241,0.86), rgba(168,85,247,0.85));
+      background: linear-gradient(135deg, rgba(34, 211, 238, 0.85), rgba(99, 102, 241, 0.86), rgba(168, 85, 247, 0.85));
     }
 
-    .blog-card:nth-child(2) .card-image { background: linear-gradient(135deg, rgba(34,197,94,0.85), rgba(34,211,238,0.82), rgba(99,102,241,0.82)); }
-    .blog-card:nth-child(3) .card-image { background: linear-gradient(135deg, rgba(245,158,11,0.84), rgba(251,113,133,0.82), rgba(168,85,247,0.82)); }
-    .blog-card:nth-child(4) .card-image { background: linear-gradient(135deg, rgba(99,102,241,0.86), rgba(168,85,247,0.84), rgba(34,211,238,0.78)); }
-    .blog-card:nth-child(5) .card-image { background: linear-gradient(135deg, rgba(14,165,233,0.88), rgba(34,197,94,0.82), rgba(99,102,241,0.8)); }
-    .blog-card:nth-child(6) .card-image { background: linear-gradient(135deg, rgba(251,113,133,0.86), rgba(245,158,11,0.82), rgba(34,211,238,0.78)); }
+    .blog-card:nth-child(2) .card-image {
+      background: linear-gradient(135deg, rgba(34, 197, 94, 0.85), rgba(34, 211, 238, 0.82), rgba(99, 102, 241, 0.82));
+    }
+
+    .blog-card:nth-child(3) .card-image {
+      background: linear-gradient(135deg, rgba(245, 158, 11, 0.84), rgba(251, 113, 133, 0.82), rgba(168, 85, 247, 0.82));
+    }
+
+    .blog-card:nth-child(4) .card-image {
+      background: linear-gradient(135deg, rgba(99, 102, 241, 0.86), rgba(168, 85, 247, 0.84), rgba(34, 211, 238, 0.78));
+    }
+
+    .blog-card:nth-child(5) .card-image {
+      background: linear-gradient(135deg, rgba(14, 165, 233, 0.88), rgba(34, 197, 94, 0.82), rgba(99, 102, 241, 0.8));
+    }
+
+    .blog-card:nth-child(6) .card-image {
+      background: linear-gradient(135deg, rgba(251, 113, 133, 0.86), rgba(245, 158, 11, 0.82), rgba(34, 211, 238, 0.78));
+    }
 
     .card-image::before {
       content: "";
@@ -638,7 +661,7 @@
       bottom: 22px;
       border-radius: 999px;
       transform: rotate(-12deg);
-      background: rgba(255,255,255,0.22);
+      background: rgba(255, 255, 255, 0.22);
     }
 
     .card-image::after {
@@ -649,7 +672,7 @@
       right: -44px;
       top: -28px;
       border-radius: 50%;
-      background: rgba(255,255,255,0.16);
+      background: rgba(255, 255, 255, 0.16);
     }
 
     .card-content {
@@ -690,15 +713,15 @@
     .trending-card {
       border: 1px solid var(--line);
       border-radius: var(--radius-lg);
-      background: rgba(255,255,255,0.065);
+      background: rgba(255, 255, 255, 0.065);
       padding: 30px;
-      box-shadow: 0 22px 56px rgba(0,0,0,0.2);
+      box-shadow: 0 22px 56px rgba(0, 0, 0, 0.2);
     }
 
     .newsletter-card {
       background:
-        radial-gradient(circle at 20% 0%, rgba(34,211,238,0.18), transparent 40%),
-        linear-gradient(145deg, rgba(255,255,255,0.1), rgba(255,255,255,0.04));
+        radial-gradient(circle at 20% 0%, rgba(34, 211, 238, 0.18), transparent 40%),
+        linear-gradient(145deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.04));
     }
 
     .newsletter-card h2,
@@ -720,7 +743,7 @@
       padding: 8px;
       border: 1px solid var(--line);
       border-radius: 999px;
-      background: rgba(3,7,18,0.35);
+      background: rgba(3, 7, 18, 0.35);
     }
 
     .subscribe-form input {
@@ -735,7 +758,7 @@
     }
 
     .subscribe-form input::placeholder {
-      color: rgba(168,179,207,0.8);
+      color: rgba(168, 179, 207, 0.8);
     }
 
     .subscribe-form button {
@@ -761,8 +784,8 @@
       align-items: center;
       padding: 15px;
       border-radius: 18px;
-      border: 1px solid rgba(255,255,255,0.09);
-      background: rgba(255,255,255,0.045);
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      background: rgba(255, 255, 255, 0.045);
     }
 
     .trend-number {
@@ -773,8 +796,8 @@
       place-items: center;
       color: #ffffff;
       font-weight: 950;
-      background: rgba(255,255,255,0.09);
-      border: 1px solid rgba(255,255,255,0.11);
+      background: rgba(255, 255, 255, 0.09);
+      border: 1px solid rgba(255, 255, 255, 0.11);
     }
 
     .trending-item h3 {
@@ -801,9 +824,9 @@
       border: 1px solid var(--line);
       border-radius: var(--radius-lg);
       background:
-        radial-gradient(circle at 20% 0%, rgba(34,211,238,0.2), transparent 38%),
-        radial-gradient(circle at 80% 100%, rgba(168,85,247,0.22), transparent 35%),
-        rgba(255,255,255,0.065);
+        radial-gradient(circle at 20% 0%, rgba(34, 211, 238, 0.2), transparent 38%),
+        radial-gradient(circle at 80% 100%, rgba(168, 85, 247, 0.22), transparent 35%),
+        rgba(255, 255, 255, 0.065);
       padding: 62px 28px;
       box-shadow: var(--shadow);
     }
@@ -824,6 +847,7 @@
     }
 
     @media (max-width: 980px) {
+
       .hero,
       .featured-post,
       .insight-section {
@@ -897,6 +921,7 @@
     }
   </style>
 </head>
+
 <body>
   <main class="blog-page">
     <section class="hero container">
@@ -956,7 +981,8 @@
                   <span class="pill">5 min read</span>
                 </div>
                 <h3>How modern platforms scale from idea to production</h3>
-                <p>Build reliable digital products with clean architecture, strong UX, and measurable growth strategy.</p>
+                <p>Build reliable digital products with clean architecture, strong UX, and measurable growth strategy.
+                </p>
               </div>
               <div class="content-lines"><i></i><i></i><i></i></div>
             </div>
@@ -984,7 +1010,8 @@
         <div>
           <div class="badge"><span></span> Latest Articles</div>
           <h2>Explore our newest insights</h2>
-          <p>Curated articles about product development, engineering, design systems, marketing technology, and business growth.</p>
+          <p>Curated articles about product development, engineering, design systems, marketing technology, and business
+            growth.</p>
         </div>
       </div>
 
@@ -1020,7 +1047,8 @@
               <span>Product & Technology Writer</span>
             </div>
           </div>
-          <a href="#" class="btn btn-primary" style="width:max-content; margin-top:18px;">Read Featured Article</a>
+          <a href="building-digital-products-users-want" class="btn btn-primary"
+            style="width:max-content; margin-top:18px;">Read Featured Article</a>
         </div>
       </article>
 
@@ -1033,8 +1061,10 @@
               <span class="pill">6 min read</span>
             </div>
             <h3>Why clean architecture matters for long-term software projects</h3>
-            <p>Learn how structured code, modular services, and scalable databases help applications grow without becoming hard to maintain.</p>
-            <a href="#" class="read-more">Read More →</a>
+            <p>Learn how structured code, modular services, and scalable databases help applications grow without
+              becoming hard to maintain.</p>
+            <a href="clean-architecture-related-updated" class="read-more">Read More
+              →</a>
           </div>
         </article>
 
@@ -1046,8 +1076,9 @@
               <span class="pill">7 min read</span>
             </div>
             <h3>Android and iOS app features users expect today</h3>
-            <p>From smooth onboarding to push notifications, mobile applications need features that improve retention and daily engagement.</p>
-            <a href="#" class="read-more">Read More →</a>
+            <p>From smooth onboarding to push notifications, mobile applications need features that improve retention
+              and daily engagement.</p>
+            <a href="android-ios-app-features" class="read-more">Read More →</a>
           </div>
         </article>
 
@@ -1059,8 +1090,9 @@
               <span class="pill">5 min read</span>
             </div>
             <h3>Designing interfaces that feel simple but work powerfully</h3>
-            <p>Good interface design balances visual clarity, user behavior, accessibility, and conversion-focused interaction flows.</p>
-            <a href="#" class="read-more">Read More →</a>
+            <p>Good interface design balances visual clarity, user behavior, accessibility, and conversion-focused
+              interaction flows.</p>
+            <a href="designing-simple-powerful-interfaces" class="read-more">Read More →</a>
           </div>
         </article>
 
@@ -1072,8 +1104,9 @@
               <span class="pill">8 min read</span>
             </div>
             <h3>How to prepare your website application for high traffic</h3>
-            <p>Improve performance with caching, optimized assets, API pagination, monitoring, and infrastructure planning.</p>
-            <a href="#" class="read-more">Read More →</a>
+            <p>Improve performance with caching, optimized assets, API pagination, monitoring, and infrastructure
+              planning.</p>
+            <a href="website-application-high-traffic" class="read-more">Read More →</a>
           </div>
         </article>
 
@@ -1086,7 +1119,7 @@
             </div>
             <h3>Choosing between custom software and ready-made tools</h3>
             <p>Understand when your company should build a custom solution and when existing SaaS tools are enough.</p>
-            <a href="#" class="read-more">Read More →</a>
+            <a href="custom-software-vs-ready-made-tools" class="read-more">Read More →</a>
           </div>
         </article>
 
@@ -1098,8 +1131,9 @@
               <span class="pill">9 min read</span>
             </div>
             <h3>From manual operations to automated digital workflow</h3>
-            <p>A look at how dashboards, reporting tools, and integrated systems can reduce repetitive work and improve decision-making.</p>
-            <a href="#" class="read-more">Read More →</a>
+            <p>A look at how dashboards, reporting tools, and integrated systems can reduce repetitive work and improve
+              decision-making.</p>
+            <a href="automated-digital-workflow" class="read-more">Read More →</a>
           </div>
         </article>
       </div>
@@ -1110,7 +1144,8 @@
         <div class="badge"><span></span> Newsletter</div>
         <h2>Get useful digital insights every week</h2>
         <p>
-          Subscribe to receive new articles, product tips, development notes, and technology updates directly in your inbox.
+          Subscribe to receive new articles, product tips, development notes, and technology updates directly in your
+          inbox.
         </p>
         <form class="subscribe-form">
           <input type="email" placeholder="Enter your email address" />
@@ -1122,7 +1157,7 @@
         <div class="badge"><span></span> Trending Topics</div>
         <h2>Popular reads this month</h2>
         <div class="trending-list">
-          <a href="#" class="trending-item">
+          <a href="blog-detail-validate-app-idea-before-development" class="trending-item">
             <div class="trend-number">01</div>
             <div>
               <h3>How to validate your app idea before development</h3>
@@ -1130,7 +1165,7 @@
             </div>
             <div class="trend-arrow">→</div>
           </a>
-          <a href="#" class="trending-item">
+          <a href="blog-detail-backend-api-structure-scalable-platforms" class="trending-item">
             <div class="trend-number">02</div>
             <div>
               <h3>Backend API structure for scalable platforms</h3>
@@ -1138,7 +1173,7 @@
             </div>
             <div class="trend-arrow">→</div>
           </a>
-          <a href="#" class="trending-item">
+          <a href="blog-detail-important-ui-sections-landing-pages" class="trending-item">
             <div class="trend-number">03</div>
             <div>
               <h3>Important UI sections for landing pages</h3>
@@ -1160,4 +1195,5 @@
     </section>
   </main>
 </body>
+
 </html>
