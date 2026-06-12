@@ -5,7 +5,7 @@
                                     <li><a href="#" class="text-decoration-none">Blog</a></li>
                                     <li><a href="#" class="text-decoration-none">About Us</a></li>
                                     <li><a href="#" class="text-decoration-none">Services</a></li>
-                                    <li><a href="contact-us.php" class="text-decoration-none">Contact Us</a></li>
+                                    <li><a href="<?= base_url('contact-us'); ?>" class="text-decoration-none">Contact Us</a></li>
                                     <li><a href="#" class="text-decoration-none">Careers</a></li>
                                 </ul>
                             </div>
@@ -30,7 +30,7 @@
                                         Jl. Jendral Sudirman Kav. 33A<br/>
                                         Jakarta Pusat - DKI Jakarta<br/>
                                         10220 - Indonesia
-                                        </a><a href="blog-single.php">View Google Map</a> </li>
+                                        </a><a href="<?= base_url('blog-single'); ?>">View Google Map</a> </li>
                                 </ul>
                             </div>
                         </div>

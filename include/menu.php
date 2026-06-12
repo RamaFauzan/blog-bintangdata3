@@ -57,7 +57,7 @@
 <div class="dropdown-grid-item last-item bg-light-subtle radius-right-side">
     <div>
         <a href="#">
-            <img src="assets/img/menu3.jpg" alt="Raikarya" class="img-fluid rounded-custom" />
+            <img src="<?= base_url('assets/img/menu3.jpg'); ?>" alt="Raikarya" class="img-fluid rounded-custom" />
         </a>
     </div>
 </div>

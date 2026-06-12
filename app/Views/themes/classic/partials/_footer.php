@@ -8,7 +8,7 @@
                     <div class="row justify-content-between">
                         <div class="col-xl-3 col-lg-5">
                             <div class="footer-single-col">
-                                <img src="assets/logo-white.png" alt="logo" class="img-fluid logo-white" style="width:250px;" />
+                                <img src="<?= base_url('assets/logo-white.png'); ?>" alt="logo" class="img-fluid logo-white" style="width:250px;" />
                                 <p class="flh-24 mt-20 mb-30">We develop enterprise-grade social media, video sharing, and community platforms designed to support millions of users with secure, scalable, and high-performance technology. </p>
                                 <ul class="list-unstyled list-inline footer-social-list d-flex mb-0">
                                     <li class="list-inline-item"><a href="#" class="bgc-white risk-color"><i class="fab fa-facebook-f"></i></a></li>
@@ -30,6 +30,23 @@
         <!-- Footer -->
 
 
+
+
+    </div>
+    <!--main wrapper end-->
+
+
+
+    <!--build:js-->
+    <script src="<?= base_url('assets/js/vendors/jquery-3.6.0.min.js'); ?>"></script>
+    <script src="<?= base_url('assets/js/vendors/bootstrap.bundle.min.js'); ?>"></script>
+    <script src="<?= base_url('assets/js/vendors/swiper-bundle.min.js'); ?>"></script>
+    <script src="<?= base_url('assets/js/vendors/jquery.magnific-popup.min.js'); ?>"></script>
+    <script src="<?= base_url('assets/js/vendors/parallax.min.js'); ?>"></script>
+    <script src="<?= base_url('assets/js/vendors/aos.js'); ?>"></script>
+    <script src="<?= base_url('assets/js/vendors/massonry.min.js'); ?>"></script>
+    <script src="<?= base_url('assets/js/app.js'); ?>"></script>
+    <!--endbuild-->
 
 </body>
 </html>
