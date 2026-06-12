@@ -1,30 +1,30 @@
 <div class="dropdown-grid-item bg-white radius-left-side">
     <h6 class="drop-heading">Development</h6>
-    <a href="#" class="dropdown-link">
+    <a href="desktop-application" class="dropdown-link">
         <span class="me-2">
             <i class="flaticon-menu"></i>
         </span>
         <div class="drop-title">Desktop Application</div>
     </a>
-    <a href="#" class="dropdown-link">
+    <a href="android-application" class="dropdown-link">
         <span class="me-2">
             <i class="flaticon-layer"></i>
         </span>
         <div class="drop-title">Android Application</div>
     </a>
-    <a href="#" class="dropdown-link">
+    <a href="ios-application" class="dropdown-link">
         <span class="me-2">
             <i class="flaticon-avatar"></i>
         </span>
         <div class="drop-title">iOS Application</div>
     </a>
-    <a href="#" class="dropdown-link">
+    <a href="website-application-development" class="dropdown-link">
         <span class="me-2">
             <i class="flaticon-flash"></i>
         </span>
         <div class="drop-title">Website Application Development</div>
     </a>
-    <a href="#" class="dropdown-link">
+    <a href="custom-software-development" class="dropdown-link">
         <span class="me-2">
             <i class="flaticon-settings"></i>
         </span>
