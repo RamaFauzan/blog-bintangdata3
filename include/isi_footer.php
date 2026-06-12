@@ -2,11 +2,11 @@
     <div class="footer-single-col pl-40">
         <h3 class="text-white">Pages</h3>
         <ul class="list-unstyled footer-nav-list mb-lg-0">
-            <li><a href="#" class="text-decoration-none">Blog</a></li>
-            <li><a href="#" class="text-decoration-none">About Us</a></li>
-            <li><a href="#" class="text-decoration-none">Services</a></li>
+            <li><a href="blog" class="text-decoration-none">Blog</a></li>
+            <li><a href="about-us" class="text-decoration-none">About Us</a></li>
+            <li><a href="services" class="text-decoration-none">Services</a></li>
             <li><a href="contact" class="text-decoration-none">Contact Us</a></li>
-            <li><a href="#" class="text-decoration-none">Careers</a></li>
+            <li><a href="careers" class="text-decoration-none">Careers</a></li>
         </ul>
     </div>
 </div>
